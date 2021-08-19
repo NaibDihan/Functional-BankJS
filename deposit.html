@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h2 class="text-center my-3">Money Talks</h2>
+        <main>
+            <section>
+                <div class="row w-75 m-auto">
+                    <div class="col col-lg-4 bg-success p-3 me-2">
+                        <h4>Deposit</h4>
+                        <h5>$<span id="deposit-amount">00</span></h5>
+                    </div>
+                    <div class="col col-lg-4 bg-warning p-3">
+                        <h4>Witdraw</h4>
+                        <h5>$<span id="withdraw-amount">00</span></h5>
+                    </div>
+                    <div class="col col-lg-4 bg-danger p-3 ms-2">
+                        <h4>Balance</h4>
+                        <h5>$<span id="balance-amount">1200</span></h5>
+                    </div>
+                </div>
+
+                <div class="row w-75 m-auto my-5">
+                    <div class="col col-lg-6 bg-primary text-white py-4 px-3 me-2">
+                        <h4>Deposit Here</h4>
+                        <input type="text" id="deposit-input" placeholder="Enter $ to Deposit" class="my-2">
+                        <button class="bg-warning text-white border-0 rounded" id="deposit-submit">Deposit</button>
+                    </div>
+                    <div class=" col col-lg-6 bg-info text-white py-4 px-3 ms-2">
+                        <h4>Witdraw Here</h4>
+                        <input type="text" id="withdraw-input" placeholder="Enter $ to withdraw" class="my-2">
+                        <button class="bg-warning text-white border-0 rounded" id="withdraw-submit">Withdraw</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+    </header>
+    
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bank.js"></script>
+</body>
+</html>
