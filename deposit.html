@@ -9,45 +9,47 @@
 </head>
 <body>
     <header>
-        <h2 class="text-center my-3">Money Talks</h2>
+        <h2 class="text-center my-5">Money Talks</h2>
+    </header>
         <main>
-            <section>
-                <div class="row w-75 m-auto">
-                    <div class="col col-lg-4 bg-success p-3 me-2">
+            <section class="container">
+                <div class="row text-white d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-lg-3 bg-success p-5 m-3 border-0 rounded">
                         <h4>Deposit</h4>
                         <h5>$<span id="deposit-amount">00</span></h5>
                     </div>
-                    <div class="col col-lg-4 bg-warning p-3">
+                    <div class=" col-12 col-lg-3 bg-warning p-5 border-0 rounded">
                         <h4>Witdraw</h4>
                         <h5>$<span id="withdraw-amount">00</span></h5>
                     </div>
-                    <div class="col col-lg-4 bg-danger p-3 ms-2">
+                    <div class="col-12 col-lg-3 bg-danger p-5 m-3 border-0 rounded">
                         <h4>Balance</h4>
                         <h5>$<span id="balance-amount">1200</span></h5>
                     </div>
                 </div>
 
-                <div class="row w-75 m-auto my-5">
-                    <div class="col col-lg-6 bg-primary text-white py-4 px-3 me-2">
+                <div class="row my-5 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-lg-5 bg-primary text-white p-4 m-3 border-0 rounded">
                         <h4>Deposit Here</h4>
-                        <input type="text" id="deposit-input" placeholder="Enter $ to Deposit" class="my-2">
+                        <input type="text" id="deposit-input" placeholder="Enter $ to Deposit" class="my-3 w-100">
                         <button class="bg-warning text-white border-0 rounded" id="deposit-submit">Deposit</button>
                     </div>
-                    <div class=" col col-lg-6 bg-info text-white py-4 px-3 ms-2">
+                    <div class=" col-12 col-lg-5 bg-info text-white p-4 border-0 rounded">
                         <h4>Witdraw Here</h4>
-                        <input type="text" id="withdraw-input" placeholder="Enter $ to withdraw" class="my-2">
+                        <input type="text" id="withdraw-input" placeholder="Enter $ to withdraw" class="my-3 w-100">
                         <button class="bg-warning text-white border-0 rounded" id="withdraw-submit">Withdraw</button>
                     </div>
                     
                 </div>
             </section>
         </main>
-    </header>
+   
     
     
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    
     <script src="js/bank.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
