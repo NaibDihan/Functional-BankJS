@@ -75,7 +75,7 @@ document.getElementById('withdraw-submit').addEventListener('click',function(){
   //  withdrawCurrentText.innerText=withdrawTotal;
   const withdrawValueAmount=inputId('withdraw-input');
   const currentBalance = getCurrentBalance();
-  if(currentBalance>withdrawValueAmount){
+  if(currentBalance>=withdrawValueAmount){
     if(withdrawValueAmount>0)
     {
       const withdrawTotal=Update(withdrawValueAmount,'withdraw-amount');
